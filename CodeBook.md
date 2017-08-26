@@ -26,7 +26,7 @@ To clean the data, all parentheses were removed with *gsub function* in all colu
 
 ### Activity Labels
 
-* WALKING`: value 1
+* WALKING: value 1
 * WALKING_UPSTAIRS: value 2
 * WALKING_DOWNSTAIRS: value 3
 * SITTING: value 4
@@ -35,3 +35,73 @@ To clean the data, all parentheses were removed with *gsub function* in all colu
 
 ## Section 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
 The tidy_data.txt was created by getting from the data set the average of each variable for each activity and subject.
+
+The following columns compose the `tidy_data.txt`:
+1. subject
+2. activity
+3. time.BodyAccmeanX
+4. time.BodyAccmeanY
+5. time.BodyAccmeanZ
+6. time.BodyAccstdX
+7. time.BodyAccstdY
+8. time.BodyAccstdZ
+9. time.GravityAccmeanX
+10. time.GravityAccmeanY
+11. time.GravityAccmeanZ
+12. time.GravityAccstdX
+13. time.GravityAccstdY
+14. time.GravityAccstdZ
+15. time.BodyAccJerkmeanX
+16. time.BodyAccJerkmeanY
+17. time.BodyAccJerkmeanZ
+18. time.BodyAccJerkstdX
+19. time.BodyAccJerkstdY
+20. time.BodyAccJerkstdZ
+21. time.BodyGyromeanX
+22. time.BodyGyromeanY
+23. time.BodyGyromeanZ
+24. time.BodyGyrostdX
+25. time.BodyGyrostdY
+26. time.BodyGyrostdZ
+27. time.BodyGyroJerkmeanX
+28. time.BodyGyroJerkmeanY
+29. time.BodyGyroJerkmeanZ
+30. time.BodyGyroJerkstdX
+31. time.BodyGyroJerkstdY
+32. time.BodyGyroJerkstdZ
+33. time.BodyAccMagmean
+34. time.BodyAccMagstd
+35. time.GravityAccMagmean
+36. time.GravityAccMagstd
+37. time.BodyAccJerkMagmean
+38. time.BodyAccJerkMagstd
+39. time.BodyGyroMagmean
+40. time.BodyGyroMagstd
+41. time.BodyGyroJerkMagmean
+42. time.BodyGyroJerkMagstd
+43. freq.BodyAccmeanX
+44. freq.BodyAccmeanY
+45. freq.BodyAccmeanZ
+46. freq.BodyAccstdX
+47. freq.BodyAccstdY
+48. freq.BodyAccstdZ
+49. freq.BodyAccJerkmeanX
+50. freq.BodyAccJerkmeanY
+51. freq.BodyAccJerkmeanZ
+52. freq.BodyAccJerkstdX
+53. freq.BodyAccJerkstdY
+54. freq.BodyAccJerkstdZ
+55. freq.BodyGyromeanX
+56. freq.BodyGyromeanY
+57. freq.BodyGyromeanZ
+58. freq.BodyGyrostdX
+59. freq.BodyGyrostdY
+60. freq.BodyGyrostdZ
+61. freq.BodyAccMagmean
+62. freq.BodyAccMagstd
+63. freq.BodyBodyAccJerkMagmean
+64. freq.BodyBodyAccJerkMagstd
+65. freq.BodyBodyGyroMagmean
+66. freq.BodyBodyGyroMagstd
+67. freq.BodyBodyGyroJerkMagmean
+68. freq.BodyBodyGyroJerkMagstd
